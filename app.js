@@ -3,7 +3,7 @@ $(document).on('click', 'a[href^="#"]', function (smoothScroll) {
   smoothScroll.preventDefault();
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
+    }, 10000);
   });
 
   function smoothScroll(target, duration) {
