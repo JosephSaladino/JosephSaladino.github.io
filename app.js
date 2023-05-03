@@ -3,7 +3,7 @@ $(document).on('click', 'a[href^="#"]', function (smoothScroll) {
   smoothScroll.preventDefault();
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
-    }, 10000);
+    }, 100000);
   });
 
   function smoothScroll(target, duration) {
@@ -53,5 +53,18 @@ $('form').submit(function(event) {
       alert('Please fill in all fields');
     }
   });
+
+
+  // background animation
+  const bg = document.getElementById('bg');
+
+function setBgHeight() {
+  bg.style.height = window.innerHeight + 'px';
+}
+
+window.addEventListener('resize', setBgHeight);
+
+setBgHeight();
+
   
       
