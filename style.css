@@ -49,11 +49,15 @@ header {
   main h2 {
     font-size: 36px;
     margin-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
   }
   
   main p {
     font-size: 18px;
     line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
   }
   
   main ul {
@@ -95,21 +99,21 @@ header {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
-    align-items: center;
+    /*align-items: center;*/
   }
 
   #portfolio {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
-    align-items: center;
+    
   }
 
   #contact {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
-    align-items: center;
+    
   }
   
 
