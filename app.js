@@ -1,6 +1,6 @@
 // Smooth scroll to anchor links
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+$(document).on('click', 'a[href^="#"]', function (smoothScroll) {
+  smoothScroll.preventDefault();
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
