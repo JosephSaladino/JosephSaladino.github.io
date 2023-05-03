@@ -91,11 +91,24 @@ header {
     font-size: 16px;
   }
 
-  .about {
+  #about {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
   }
+
+  #portfolio {
+    max-width: 800px; /* Set a max width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the section's content */
+  }
+
+  #contact {
+    max-width: 800px; /* Set a max width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the section's content */
+  }
+  
 
   
   
