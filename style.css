@@ -1,11 +1,14 @@
 /* Style for the header section */
 header {
-    display: flex;
+    /*display: flex;*/
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #5a60af;
     color: #a34646;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    z-index: 1;
   }
   
   /* Style for the navigation menu */
@@ -112,7 +115,7 @@ header {
   #contact {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
-    text-align: center; /* Center the section's content */
+    text-align: left; /* Center the section's content */
     
   }
 
