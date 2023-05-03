@@ -55,8 +55,8 @@ $('form').submit(function(event) {
   });
 
 
-  // background animation
-  const bg = document.getElementById('bg');
+// background animation
+const bg = document.getElementById('bg');
 
 function setBgHeight() {
   bg.style.height = window.innerHeight + 'px';
