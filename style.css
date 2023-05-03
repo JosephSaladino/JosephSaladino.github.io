@@ -115,6 +115,12 @@ header {
     text-align: center; /* Center the section's content */
     
   }
+
+  html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.3s;
+  }
+  
   
 
   
