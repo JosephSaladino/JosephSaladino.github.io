@@ -90,6 +90,15 @@ header {
     color: #fff;
     font-size: 16px;
   }
+
+  .about {
+    max-width: 800px; /* Set a max width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: center; /* Center the section's content */
+  }
+
+  
+  
   
   /* Style for the contact form */
   form {

@@ -17,7 +17,7 @@ $('.nav-toggle').click(function() {
   });
 
 // Validate the contact form before submission
-/*
+
 $('form').submit(function(event) {
     var name = $('#name').val();
     var email = $('#email').val();
@@ -28,5 +28,5 @@ $('form').submit(function(event) {
       alert('Please fill in all fields');
     }
   });
-  */
+  
       
