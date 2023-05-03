@@ -95,18 +95,21 @@ header {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
+    align-items: center;
   }
 
   #portfolio {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
+    align-items: center;
   }
 
   #contact {
     max-width: 800px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
+    align-items: center;
   }
   
 
