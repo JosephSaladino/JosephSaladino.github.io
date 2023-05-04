@@ -99,14 +99,14 @@ header {
   }
 
   #about {
-    max-width: 600px; /* Set a max width for the section */
+    max-width: 300px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
     /*align-items: center;*/
   }
 
   #portfolio {
-    max-width: 600px; /* Set a max width for the section */
+    max-width: 300px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
     
