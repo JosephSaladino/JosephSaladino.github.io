@@ -8,7 +8,7 @@ header {
     background-color: rgb(107, 80, 224);
     color: #db7c60;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    *z-index: 1;
+    z-index: 1;
   }
   
   /* Style for the navigation menu */
@@ -50,7 +50,8 @@ header {
   
   main h2 {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: 70px;
     margin: 0 auto;
     text-align: center;
   }
