@@ -7,8 +7,8 @@ header {
     padding: 20px;
     background-color: linear-gradient(to top, #ad7b38, #7a8ad4);
     color: #e49e9e;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
-    /*z-index: 1;*/
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    *z-index: 1;
   }
   
   /* Style for the navigation menu */
@@ -44,7 +44,7 @@ header {
   
   /* Style for the main section */
   main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px;
   }
