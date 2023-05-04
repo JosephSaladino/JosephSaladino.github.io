@@ -118,6 +118,14 @@ header {
     
   }
 
+  #myCanvas {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
   html {
     scroll-behavior: smooth;
     transition: scroll-behavior 0.3s;
