@@ -55,6 +55,15 @@ header {
     margin: 0 auto;
     text-align: center;
   }
+
+  main h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
   
   main p {
     font-size: 18px;
