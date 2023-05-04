@@ -68,7 +68,7 @@ setBgHeight();
 
 
 // Get the canvas element
-const canvas = document.getElementById('canvas');
+const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
 // Set the initial position and velocity of the circle
