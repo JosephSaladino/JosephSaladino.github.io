@@ -5,8 +5,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: linear-gradient(to top, #a6c0fe, #f68084);
-    /*color: #e49e9e;*/
+    background-image: linear-gradient(to top, #a6c0fe, #f68084);
+    color: #e49e9e;
     box-shadow: 0 4px 4px rgba(0,0,0,0.2);
     /*z-index: 1;*/
   }
@@ -184,7 +184,7 @@ header {
   }
   
   @keyframes moveBackground {
-    from { background-position: 0; }
-    to { background-position: 100%; }
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
   }
   
