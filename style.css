@@ -6,9 +6,10 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #5a60af;
-    color: #a34646;
+    /*color: #e49e9e;*/
+    background-image: linear-gradient(to top, #a6c0fe, #f68084);
     box-shadow: 0 4px 4px rgba(0,0,0,0.2);
-    z-index: 1;
+    /*z-index: 1;*/
   }
   
   /* Style for the navigation menu */
@@ -124,7 +125,10 @@ header {
     transition: scroll-behavior 0.3s;
   }
   
-  
+  footer {
+    margin: 0;
+    padding: 0;
+  }
 
   
   
