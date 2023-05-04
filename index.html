@@ -4,9 +4,64 @@
     <title>Joseph Saladino</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <style>
+      #myCanvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+    </style>
   </head>
   <body>
     <script src="app.js"></script>
+    <script>
+      const canvas = document.getElementById('myCanvas');
+      const ctx = canvas.getContext('2d');
+
+      let circles = [];
+
+      for (let i = 0; i < 10; i++) {
+        let circle = {
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: 10,
+          dx: Math.random() * 4 - 2,
+          dy: Math.random() * 4 - 2,
+          color: `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`
+        };
+        circles.push(circle);
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        for (let i = 0; i < circles.length; i++) {
+          let circle = circles[i];
+
+          ctx.beginPath();
+          ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
+          ctx.fillStyle = circle.color;
+          ctx.fill();
+          ctx.closePath();
+
+          circle.x += circle.dx;
+          circle.y += circle.dy;
+
+          if (circle.x + circle.radius > canvas.width || circle.x - circle.radius < 0) {
+            circle.dx = -circle.dx;
+          }
+
+          if (circle.y + circle.radius > canvas.height || circle.y - circle.radius < 0) {
+            circle.dy = -circle.dy;
+          }
+        }
+
+        requestAnimationFrame(draw);
+      }
+
+      draw();
+    </script>
     <header>
       <h1>Joseph Saladino</h1>
       <nav>
