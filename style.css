@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #7a8ad4;
+    background-color: rgb(234, 78, 255);
     color: #e49e9e;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     *z-index: 1;
@@ -99,21 +99,21 @@ header {
   }
 
   #about {
-    max-width: 800px; /* Set a max width for the section */
+    max-width: 600px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
     /*align-items: center;*/
   }
 
   #portfolio {
-    max-width: 800px; /* Set a max width for the section */
+    max-width: 600px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: center; /* Center the section's content */
     
   }
 
   #contact {
-    max-width: 800px; /* Set a max width for the section */
+    max-width: 600px; /* Set a max width for the section */
     margin: 0 auto; /* Center the section horizontally */
     text-align: left; /* Center the section's content */
     
